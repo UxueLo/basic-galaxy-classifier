@@ -7,7 +7,7 @@ Originally, the project aimed to use a single dataset containing both physical m
 * **'p_el', 'p_cs**: These features are the probability of a galaxy being elliptical and spiral.
 * **'spiral', 'elliptical'**: These are the binary labels used for Supervised Learning, indicating the final classification of each galaxy.
 * **'u', 'g', 'r', 'i', 'z'**: These features correspond to the SDSS Photometric filter system. In astrophysics, the wavelength of electromagnetic radiation defines the light's properties. These filters measure light across different bands (from Ultraviolet to Near-Infrared). These features are used to determine the a galaxy's age and star formation rate, calculating *'Color Indices'* (u-g, g-r ...).
-![alt text](image.png)
+![alt text](images/image.png)
 
 ## Data Processing
 To train the model it's essential to clean, select and adapt the data. In this project several changes were needed in the datasets:
