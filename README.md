@@ -4,9 +4,10 @@ This is a basic Machine Learning project, designed as a first-time introduction 
 ## Dataset
 Originally, the project aimed to use a single dataset containing both physical measurements and morphological labels. Since I wasn't able to find any appropiate dataset, I decided to combine two different datasets and put them together. Both datasets are available in the repository. The features used in the project are:
 * **'ra', 'dec'**: This coordinates are used to represent the celestial location of a galaxy. Their abbrevations come from Right Ascension and Declination. They are crucial  for the project because they serve as a unique identifiers of galaxies to merge the datasets.
-* **'u', 'g', 'r', 'i', 'z'**: This features correspond to the SDSS Photometric filter system. In astrophysics, the wavelength of electromagnetic radiation defines the light's properties. These filters measure light across different bands (from Ultraviolet to Near-Infrared). This features are used to determine the a galaxy's age and star formation rate, calculating *'Color Indices'* (u-g, g-r ...).
 * **'p_el', 'p_cs**: This features are the probability of a galaxy being elliptical and spiral.
 * **'spiral', 'elliptical'**: These are the binary labels used for Supervised Learning, indicating the final classification of each galaxy.
+* **'u', 'g', 'r', 'i', 'z'**: This features correspond to the SDSS Photometric filter system. In astrophysics, the wavelength of electromagnetic radiation defines the light's properties. These filters measure light across different bands (from Ultraviolet to Near-Infrared). This features are used to determine the a galaxy's age and star formation rate, calculating *'Color Indices'* (u-g, g-r ...).
+            ![alt text](image.png)
 
 ## Data Processing
 To trains the model it's essential to clean, select and adapt the data. In this project several changes were needed in the datasets:
